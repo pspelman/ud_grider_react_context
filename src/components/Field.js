@@ -11,7 +11,7 @@ class Field extends Component {
   render() {
     return (
       <div className={"ui field"}>
-        <label>{nameTranslations[this.context]}</label>
+        <label>{nameTranslations[this.context.language]}</label>
         <input />
       </div>
     )
